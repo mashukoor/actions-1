@@ -1,6 +1,8 @@
 name: Generate ascii workflow
 
-on: push
+on:
+  workflow_dispatch:
+    
 jobs:
   build_job:
     runs-on: ubuntu-latest
